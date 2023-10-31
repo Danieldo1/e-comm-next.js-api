@@ -22,7 +22,7 @@ type Props ={
 const Product = ({ product }:Props) => {
   return (
     <Link prefetch={false} href={`/product/${product.id}`}
-    className="h-96 flex flex-col border group-hover:scale-125 transition-transform duration-200 ease-in-out rounded-2xl"
+    className="h-96 flex flex-col border group-hover:scale-105 transition-transform duration-200 ease-out rounded-2xl"
     >
         <div className="relative max-h-72 flex-1">
             <ProductImage product={product} fill />
