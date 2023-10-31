@@ -4,8 +4,8 @@ import Link from "next/link"
 function Header() {
   return (
     <header className="flex items-center px-4 md:px-12 justify-between fixed top-0 w-full bg-white z-50 shadow">
-        <Link href="/" className="border-2 border-red-500">
-            <Image src="/logo.png" alt="logo" width={100} height={100} />
+        <Link href="/" className="">
+            <Image src="https://lh3.googleusercontent.com/pw/ADCreHe3Vb3n5hEiApI2iOwWKRa6kYLpxNLdeMj1FuDrD9ICsav4RHsSXvigg8-vkwsAO6hNuXVFDR7SSfOYO7MQqA4Ki-_Fc8TcLw4ObAs2zkuZlxDFSV8nNEquyRMbk-rjPkHwxJ3I3nGCspcV-YpQUFku=w461-h111-s-no-gm?authuser=0" alt="logo" width={300} height={200} />
         </Link>
 
         <div className="flex items-center space-x-4 text-sm">
