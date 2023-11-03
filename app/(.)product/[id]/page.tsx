@@ -68,13 +68,13 @@ function Modal() {
                           ))}
                             </div>
                         )}
-                        <p className="text-blue-600 hover:underline cursor-pointer text-xs">See all {product?.rating.count} reviews</p>
+                        <p className="text-blue-600 hover:underline  text-xs cursor-not-allowed">See all {product?.rating.count} reviews</p>
                       </div>
                       <p className="line-clamps-3 text-sm">{product?.description}</p>
                   </div>
                   <div className="space-y-3 text-sm">
-                    <button  className="rounded m-1 bg-blue-500 py-2 px-4 text-white hover:bg-blue-800">Add to cart</button>
-                    <button onClick={()=>window.location.reload()} className="rounded m-1 bg-blue-500 py-2 px-4 text-white hover:bg-blue-800">View Details</button>
+                    <button  className="rounded m-1 bg-blue-500 py-2 px-4 text-white hover:bg-blue-800 cursor-not-allowed">Add to cart</button>
+                    <button onClick={()=>window.location.reload()} className="rounded m-1 bg-blue-500 py-2 px-4 text-white hover:bg-blue-800 ">View Details</button>
                   </div>
                 </div>
             </div>
